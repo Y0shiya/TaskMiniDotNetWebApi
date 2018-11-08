@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMiniBackend", "TaskMiniBackend\TaskMiniBackend.csproj", "{EAC60133-E09A-4CFF-B73B-B4560B2C39CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealmDao", "RealmDao\RealmDao.csproj", "{F169EF45-DDE6-4992-BD4F-3CAED09E082C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC60133-E09A-4CFF-B73B-B4560B2C39CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC60133-E09A-4CFF-B73B-B4560B2C39CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC60133-E09A-4CFF-B73B-B4560B2C39CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC60133-E09A-4CFF-B73B-B4560B2C39CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F169EF45-DDE6-4992-BD4F-3CAED09E082C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F169EF45-DDE6-4992-BD4F-3CAED09E082C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F169EF45-DDE6-4992-BD4F-3CAED09E082C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F169EF45-DDE6-4992-BD4F-3CAED09E082C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8613D892-9CB0-4FC5-A91C-13719B229432}
+	EndGlobalSection
+EndGlobal
