@@ -5,10 +5,10 @@
 ### Task(=未完タスク)全件取得
 
  
-リクエスト GET http://エンドポイント/api/tasks
+* リクエスト GET http://エンドポイント/api/tasks
 
  
-レスポンス 200 OK http://エンドポイント/tasks
+* レスポンス 200 OK http://エンドポイント/tasks
 
  
 	* ヘッダー　Content-Type: application/json
@@ -17,8 +17,8 @@
   
 
 ### Task取得
-リクエスト GET http://エンドポイント/api/tasks/{id}
-レスポンス 200 OK http://エンドポイント/api/tasks/{id}
+*リクエスト GET http://エンドポイント/api/tasks/{id}
+*レスポンス 200 OK http://エンドポイント/api/tasks/{id}
 
 
 	* ヘッダー　Content-Type: application/json
@@ -62,13 +62,15 @@
 
   
 リクエスト DELETE http://エンドポイント/api/tasks/{id}
- 
+   
+    
 レスポンス 204 No Content http://エンドポイント/api/tasks/{id}
 
 
 
 ### Trash(=完了タスク)全件取得
-リクエスト GET http://エンドポイント/api/trash
+リクエスト GET http://エンドポイント/api/trash  
+    
 レスポンス 200 OK http://エンドポイント/api/trash
 	* ヘッダー　Content-Type: application/json
 
@@ -76,11 +78,13 @@
 
 
 ### Trash全件削除
-リクエスト DELETE http://エンドポイント/api/trash
+リクエスト DELETE http://エンドポイント/api/trash  
+    
 レスポンス 204 No Content http://エンドポイント/api/trash
 
 
 ### Trash削除
-リクエスト DELETE http://エンドポイント/api/trash/{id}
+リクエスト DELETE http://エンドポイント/api/trash/{id}  
+    
 レスポンス 204 No Content http://エンドポイント/api/trash/{id}
 
