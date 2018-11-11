@@ -2,13 +2,13 @@
 
 ## API仕様
 
-#### Task(=未完タスク)全件取得
+### Task(=未完タスク)全件取得
 
  
-##### リクエスト GET http://エンドポイント/api/tasks
+リクエスト GET http://エンドポイント/api/tasks
 
  
-##### レスポンス 200 OK http://エンドポイント/tasks
+レスポンス 200 OK http://エンドポイント/tasks
 
  
 	* ヘッダー　Content-Type: application/json
