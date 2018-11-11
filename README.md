@@ -71,7 +71,8 @@
 ### Trash(=完了タスク)全件取得
 リクエスト GET http://エンドポイント/api/trash  
     
-レスポンス 200 OK http://エンドポイント/api/trash
+レスポンス 200 OK http://エンドポイント/api/trash  
+    
 	* ヘッダー　Content-Type: application/json
 
 	* ボディ　[{"id":"fdb72194-6ae9-400e-9723-7542f42fa290","note":"done task.","order":21},...{...}]
