@@ -1,8 +1,6 @@
 # TaskMiniDotNetWebApi
 
-## API
-
-仕様
+## API仕様
 
 #### タスク一覧取得
 
@@ -12,7 +10,7 @@
 
  
  
-レスポンス 200 OK http://エンドポイント/tasks
+##### レスポンス 200 OK http://エンドポイント/tasks
 
  
 	* ヘッダー　Content-Type: application/json
@@ -26,7 +24,7 @@
 
   
 
-リクエスト POST http://エンドポイント/api/tasks
+##### リクエスト POST http://エンドポイント/api/tasks
   
     
 	* ヘッダー　Content-Type: application/json
@@ -35,7 +33,7 @@
   
   
 
-レスポンス 204 No Content http://エンドポイント/api/tasks
+##### レスポンス 204 No Content http://エンドポイント/api/tasks
   
 
 
@@ -43,7 +41,7 @@
 
   
 
-リクエスト PUT http://エンドポイント/api/tasks
+##### リクエスト PUT http://エンドポイント/api/tasks
   
     
 	* ヘッダー　Content-Type: application/json
@@ -52,7 +50,7 @@
     
   
 
-レスポンス 204 No Content http://エンドポイント/api/tasks
+##### レスポンス 204 No Content http://エンドポイント/api/tasks
   
 
 
@@ -60,7 +58,7 @@
 
   
 
-リクエスト DELETE http://エンドポイント/api/tasks/{id}
+##### リクエスト DELETE http://エンドポイント/api/tasks/{id}
  
  
-レスポンス 204 No Content http://エンドポイント/api/tasks/{id}
+##### レスポンス 204 No Content http://エンドポイント/api/tasks/{id}
