@@ -7,7 +7,8 @@
  
 リクエスト GET http://エンドポイント/api/tasks
 
- 
+  
+    
 レスポンス 200 OK http://エンドポイント/tasks
 
  
@@ -17,7 +18,8 @@
   
 
 ### Task取得
-リクエスト GET http://エンドポイント/api/tasks/{id}
+リクエスト GET http://エンドポイント/api/tasks/{id} 
+    
 レスポンス 200 OK http://エンドポイント/api/tasks/{id}
 
 
